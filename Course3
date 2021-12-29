@@ -1,11 +1,19 @@
-What are the key concepts you learnt from these courses
-You can choose one module from the list below:-
-1)Algorithm Analysis
+Raj Kansara
+
 2)Divide and Conquer Algorithms
-3)Dynamic Programming
 
+A divide and conquer algorithm is a strategy of solving a large problem by
 
-Pawan Dubey
-Dynamic Programming
-Understanding the prolem and implementing a solution which is space and time efficient by structuring it into sub problems.
+-Breaking the problem into smaller sub-problems
+-Solving the sub-problems,
+-Combining them to get the desired output.
+
+The complexity of the divide and conquer algorithm is calculated using the master theorem.
+
+T(n) = aT(n/b) + f(n),
+where,
+n = size of input
+a = number of subproblems in the recursion
+n/b = size of each subproblem. All subproblems are assumed to have the same size.
+f(n) = cost of the work done outside the recursive call, which includes the cost of dividing the problem and cost of merging the solutions
 
